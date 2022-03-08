@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
