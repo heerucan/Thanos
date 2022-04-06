@@ -1,6 +1,24 @@
 {
   "dependencies": {
+    "express": "^4.17.3",
     "prettier": "^2.5.1",
     "tslint-config-prettier": "^1.18.0"
-  }
+  },
+  "name": "thanos-script",
+  "description": "🛺 타입스크립트 공부하는 레포 🛺",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heerucan/Thanos-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heerucan/Thanos-script/issues"
+  },
+  "homepage": "https://github.com/heerucan/Thanos-script#readme"
 }
