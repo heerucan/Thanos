@@ -2,10 +2,12 @@ const express = require("express"); // express 모듈 불러오기
 const router = express.Router(); // Router 미들웨어 불러오기
 
 /* GET home page. */
-router.get("/", function (req, res, next) {
-  res.render("index", { title: "Express" });
+router.post("/post", (req, res) => {
+  const result = {
+    status: 200,
+    message: "post 어렵넹",
+  };
+  res.status(200).send(result);
 });
-
-router.use("/api/blog", require("./api/blog"));
 
 module.exports = router;
